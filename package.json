@@ -31,8 +31,8 @@
     "webpack-dev-server": "4"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0-alpha-bd5bf555e-20210823",
+    "react-dom": "^18.0.0-alpha-bd5bf555e-20210823",
     "single-spa-react": "^4.3.1"
   }
 }

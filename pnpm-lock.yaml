@@ -8,8 +8,8 @@ specifiers:
   husky: ^7.0.1
   prettier: ^2.3.2
   pretty-quick: ^3.1.1
-  react: ^17.0.2
-  react-dom: ^17.0.2
+  react: ^18.0.0-alpha-bd5bf555e-20210823
+  react-dom: ^18.0.0-alpha-bd5bf555e-20210823
   single-spa-react: ^4.3.1
   systemjs-webpack-interop: ^2.3.7
   webpack: ^5.51.1
@@ -17,9 +17,9 @@ specifiers:
   webpack-dev-server: '4'
 
 dependencies:
-  react: 17.0.2
-  react-dom: 17.0.2_react@17.0.2
-  single-spa-react: 4.3.1_react@17.0.2
+  react: 18.0.0-alpha-bd5bf555e-20210823
+  react-dom: 18.0.0-alpha-bd5bf555e-20210823_a83e100670d360e514c233613a9430cc
+  single-spa-react: 4.3.1_a83e100670d360e514c233613a9430cc
 
 devDependencies:
   '@babel/core': 7.15.0
@@ -2379,19 +2379,19 @@ packages:
       unpipe: 1.0.0
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.0.0-alpha-bd5bf555e-20210823_a83e100670d360e514c233613a9430cc:
+    resolution: {integrity: sha512-DQoFlKbL4l4wawjJNG1Yz33qWe4bMKh5WrRzeYtnoRqKu32wKEAl0vdYaRmOvom0LEsmkpQ6KjtikavA5aioUA==}
     peerDependencies:
-      react: 17.0.2
+      react: 18.0.0-alpha-bd5bf555e-20210823
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.0.0-alpha-bd5bf555e-20210823
+      scheduler: 0.21.0-alpha-bd5bf555e-20210823
     dev: false
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.0.0-alpha-bd5bf555e-20210823:
+    resolution: {integrity: sha512-br63l0zy59xKWHq30TDdWjB2SuuUikSh9URfirMxVuLV/E7gfeg1PUOxP+hWhXORB6KKFZhDc76aYhB8Foas1A==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -2514,8 +2514,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.21.0-alpha-bd5bf555e-20210823:
+    resolution: {integrity: sha512-+qSCaypT3k+MJH6XtUDXdGGaloMORoHw+h6fG9Crx+ZeLDNDwmFBj3PmRh/q5Qtz3+W/WHKhQM0nUe0bH0WhSw==}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -2633,14 +2633,14 @@ packages:
     resolution: {integrity: sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==}
     dev: true
 
-  /single-spa-react/4.3.1_react@17.0.2:
+  /single-spa-react/4.3.1_a83e100670d360e514c233613a9430cc:
     resolution: {integrity: sha512-RD93IpUfjuHnSiPSb3zPIUYkUuDAmxj3L1fkGjVzmSCRhEcc7oZBEe68k32oN36IqyOyQPJrCiPUOMAx6aC26g==}
     peerDependencies:
       '@types/react': '*'
       '@types/react-dom': '*'
       react: '*'
     dependencies:
-      react: 17.0.2
+      react: 18.0.0-alpha-bd5bf555e-20210823
     dev: false
 
   /slash/3.0.0:
